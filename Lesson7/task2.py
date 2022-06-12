@@ -15,7 +15,7 @@ class Coat(Clothes):
         Coat.count += self.consumption
 
     def __str__(self):
-        return f"Coat: size - {self.size}, consumption -{self.consumption}, total consumption -{Coat.count}"
+        return f"Пальто: size - {self.size}, consumption -{self.consumption}, total consumption -{Coat.count}"
 
     @property
     def consumption(self):
@@ -29,7 +29,7 @@ class Costume(Clothes):
         Costume.count += self.consumption
 
     def __str__(self):
-        return f"Costume: height - {self.height}, consumption - {self.consumption}, total consumption - {Costume.count}"
+        return f"Костюм: height - {self.height}, consumption - {self.consumption}, total consumption - {Costume.count}"
 
     @property
     def consumption(self):

@@ -28,8 +28,8 @@ class Cell:
         return Cell(self.num // other.num)
 
 
-cell_1 = Cell(17)
-cell_2 = Cell(12)
+cell_1 = Cell(12)
+cell_2 = Cell(10)
 print(cell_1 + cell_2)
 print(cell_1 - cell_2)
 print(cell_1 * cell_2)
